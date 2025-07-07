@@ -12,6 +12,15 @@ namespace 饮品店点餐收银系统
 {
     public partial class Frm_TeaPriceManage : Form
     {
+    public class TeaPrice
+    {
+        public string TeaNum { get; set; }
+        public decimal PriceSmall { get; set; }
+        public decimal PriceMedium { get; set; }
+        public decimal PriceLarge { get; set; }
+        public DateTime BeginDate { get; set; }
+        public DateTime EndDate { get; set; }
+    }
         public Frm_TeaPriceManage()
         {
             InitializeComponent();
